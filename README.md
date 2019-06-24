@@ -1,2 +1,3 @@
 # WebDev2019
- what I'm doing in class
+ Sydney Terry 
+ https://first-website-st.netlify.com/
