@@ -18,7 +18,8 @@ a.button {
 .button:hover {
     background-color: rgb(221, 145, 170);
 }
-header {
+
+ .navbar { 
     background-color: gray;
     height: 80px;
     border: 2px dotted rgb(236, 179, 72);
@@ -28,6 +29,7 @@ header {
 h2, h3, h4, p {
     margin: 0px 200px ;
     padding: 20px 175px;
+    border: 2px solid black
 }
 
 h1 {
@@ -67,11 +69,19 @@ body {
     margin: 0;
 }
 
-
-img {
+.photo1 {
 height : 300px;
 width : 390px;
 background-color: oldlace;
-padding: 85px 205px;
+padding: 85px 288px;
 margin: 0px 200px;
+border: 2px solid black;
+}
+
+table {
+    margin: 60px;
+}
+
+ul, ol {
+    background-color: oldlace;
 }
