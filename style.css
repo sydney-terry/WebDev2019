@@ -1,29 +1,38 @@
 
 .button {
-    background-color: goldenrod;
+    background-color: rgb(236, 193, 84);
     margin: 10px;
-    
     border-radius: 2px;
-    height: 30px;
+    padding: 5px;
+    height: 35px;
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
+    text-align: center;
 }
 
 a.button {
-    color: rgb(49, 121, 189);
+    color: rgb(250, 131, 230);
 }
 
 .button:hover {
     background-color: rgb(221, 145, 170);
 }
 header {
-    background-color: wheat;
+    background-color: gray;
+    height: 80px;
+    border: 2px dotted rgb(236, 179, 72);
+
+}
+
+h2, h3, h4, p {
+    margin: 0px 200px ;
+    padding: 20px 175px;
 }
 
 h1 {
     font-size: 45px;
-    padding: 25px;
+    padding: 15px 175px;
     line-height: 45px;
     background-color: oldlace;
     margin: 50px 200px 0px 200px;
@@ -32,36 +41,37 @@ h1 {
 h2 {
     font-size: 30px;
     background-color: oldlace;
-    padding: 30px 80px;
-    margin: 0px 200px 0px 200px;
 }
 
 h4 {
  font-size: 25px;
- margin: 0px 200px;
+ background-color: oldlace;
 }
 
-p {
+h4 + p {
     font-size: 24px;
-    margin: 0px 200px;
+    background-color: oldlace;
 }
 
 footer {
     background-color: rgba(128, 128, 128, .50);
     opacity: .75; 
     height: 45px;
+    position: absolute;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
 }
 
 body {
     text-align: center;
-    margin: 0 !important;
-
+    margin: 0;
 }
 
 
 img {
 height : 300px;
-width : 360px;
+width : 390px;
 background-color: oldlace;
-padding: 50px;
+padding: 85px 205px;
+margin: 0px 200px;
 }
