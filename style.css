@@ -20,24 +20,25 @@ a.button {
 }
 
  .navbar { 
-    background-color: gray;
+    background-color:rgb(187, 186, 186);
     height: 80px;
     border: 2px dotted rgb(236, 179, 72);
+    width: 100%;
+    margin: 0px 0px 0px 0px;
 
 }
 
 h2, h3, h4, p {
     margin: 0px 200px ;
-    padding: 20px 175px;
-    border: 2px solid black
+    padding: 25px 175px 25px 175px;
 }
 
 h1 {
     font-size: 45px;
-    padding: 15px 175px;
+    padding: 25px 175px;
     line-height: 45px;
     background-color: oldlace;
-    margin: 50px 200px 0px 200px;
+    margin: 30px 200px 30px 200px;
 }
 
 h2 {
@@ -45,9 +46,19 @@ h2 {
     background-color: oldlace;
 }
 
+h3 {
+    background-color: oldlace;
+    font-size: 27px;
+}
+
 h4 {
- font-size: 25px;
+ font-size: 22px;
  background-color: oldlace;
+}
+
+p {
+    font-size: 22px;
+    background-color: oldlace;
 }
 
 h4 + p {
@@ -55,33 +66,102 @@ h4 + p {
     background-color: oldlace;
 }
 
-footer {
+/*footer {
     background-color: rgba(128, 128, 128, .50);
     opacity: .75; 
     height: 45px;
     position: absolute;
     width: 100%;
-    margin: 10px 0px 0px 0px;
-}
+    margin: 30px 0px 0px 0px;
+}*/
 
 body {
     text-align: center;
     margin: 0;
 }
 
+img {
+    background-color: oldlace;
+}
+
 .photo1 {
-height : 300px;
-width : 390px;
+height : 380px;
+width : 490px;
 background-color: oldlace;
-padding: 85px 288px;
-margin: 0px 200px;
-border: 2px solid black;
+padding: 60px 180px;
+border: 3px solid #e44675;
+}
+
+.family-img {
+height: 400px; 
+width: 380px;
+padding: 55px 463px;
+margin-top: 10px;
+border: 3px solid #e44675;
+}
+
+.school {
+background-color: oldlace;
+height: 310px;
+width: 435px;
+padding: 30px 436px;
+border: 3px solid #e44675;
+}
+
+.concert {
+    height: 350px;
+    width: 385px;
+    padding: 30px 461px;
+    width: 0px 200px;
+    border: 3px solid #e44675;
+}
+.typing {
+    padding: 45px 515px;
+    height: 350px;
 }
 
 table {
-    margin: 60px;
+    margin: 0 auto;
+    font-size: 18px;
+    border: 4px dotted #e44675;
+    width: 70%;
+}
+
+td {
+    background-color: oldlace;
+    font-size: 21px;
+    border-bottom: gray;
+    border-right: gray;
+    text-align: left;
+}
+
+thead {
+    font-size: 22px;
+    font-style: bold;
+    background-color: rgb(226, 226, 226);
 }
 
 ul, ol {
     background-color: oldlace;
+    margin: 0px 200px;
+    padding: 5px 300px;
+    font-size: 20px;
+}
+
+{
+
+}
+
+.web1 {
+text-align: left;
+}
+
+footer p {
+    background-color: rgb(187, 186, 186);
+    width: 100%;
+    opacity: .75;
+    position: absolute;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding: 25px 250px ;
 }
