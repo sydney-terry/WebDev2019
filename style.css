@@ -1,14 +1,15 @@
 
 .button {
     background-color: rgb(236, 193, 84);
-    margin: 10px;
+    margin: 20px;
     border-radius: 2px;
     padding: 5px;
-    height: 35px;
-    font-family: Helvetica;
+    height: 60px;
+    width: 15%;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 3em;
     text-align: center;
+    font-family: 'ABeeZee', sans-serif;
 }
 
 a.button {
@@ -21,24 +22,27 @@ a.button {
 
  .navbar { 
     background-color:rgb(187, 186, 186);
-    height: 80px;
+    height: 5em;
     border: 2px dotted rgb(236, 179, 72);
     width: 100%;
-    margin: 0px 0px 0px 0px;
-
 }
 
 h2, h3, h4, p {
-    margin: 0px 200px ;
-    padding: 25px 175px 25px 175px;
+    width: 70%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
 }
 
 h1 {
     font-size: 45px;
-    padding: 25px 175px;
     line-height: 45px;
     background-color: oldlace;
-    margin: 30px 200px 30px 200px;
+    margin: 0 auto;
+    padding-top: 1em;
+    width: 70%;
 }
 
 h2 {
@@ -66,18 +70,10 @@ h4 + p {
     background-color: oldlace;
 }
 
-/*footer {
-    background-color: rgba(128, 128, 128, .50);
-    opacity: .75; 
-    height: 45px;
-    position: absolute;
-    width: 100%;
-    margin: 30px 0px 0px 0px;
-}*/
-
 body {
     text-align: center;
     margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 img {
@@ -85,11 +81,12 @@ img {
 }
 
 .photo1 {
-height : 380px;
-width : 490px;
-background-color: oldlace;
-padding: 60px 180px;
-border: 3px solid #e44675;
+    width: 30%;
+    background-color: oldlace;
+    border: 3px solid #e44675;
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%; 
 }
 
 .family-img {
@@ -143,13 +140,19 @@ thead {
 
 ul, ol {
     background-color: oldlace;
-    margin: 0px 200px;
-    padding: 5px 300px;
     font-size: 20px;
+    width: 69.3%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
 }
 
-{
+ol {
+    list-style-type:lower-roman;
+}
 
+ul{
+    list-style: none; /*rid dots*/
 }
 
 .web1 {
@@ -162,6 +165,5 @@ footer p {
     opacity: .75;
     position: absolute;
     text-align: center;
-    margin: 10px 0px 0px 0px;
-    padding: 25px 250px ;
+    margin: 0 auto;
 }
