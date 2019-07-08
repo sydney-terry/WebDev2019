@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: rgb(247, 197, 238);
+    color: rgb(75, 75, 75);
+    font-family: 'Sansita', sans-serif;
+}
+
+input {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#msg {
+    font-size: 35px;
+}
