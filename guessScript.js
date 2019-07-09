@@ -3,6 +3,7 @@ var ranNum = Math.round(Math.random()*99) + 1;
 console.log(ranNum)
 function sendData(form) {
     var guessNum = form.inputbox.value;
+    console.log(guessNum);
     form.inputbox.value ="";
     count = count + 1;
     console.log(count);
@@ -14,8 +15,15 @@ if (guessNum > 100) {
  } else if (isNaN(guessNum)) {
     msg = "Invalid";
 } else if (guessNum==ranNum) {
-    msg = "You got it! Tries: " + count
+    msg = "You got it! Tries: " + count;
+    let myImg = document.createElement('image');
+    myImg.src = "/thumbsup.jpeg";
+    let mainSection = document.querySelector('main');
+    mainSection.appendChild(myImg);
+} else {
+    msg = "wrong, try again";
 }
-    document.getElementById("msg").innerHTML = msg;
+    document.getElementById("msg").innerText = msg;
+
 } 
 

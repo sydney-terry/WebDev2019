@@ -3,6 +3,7 @@ body {
     background-color: rgb(247, 197, 238);
     color: rgb(75, 75, 75);
     font-family: 'Sansita', sans-serif;
+    margin: 0px;
 }
 
 input {
@@ -20,3 +21,31 @@ h2 {
 #msg {
     font-size: 35px;
 }
+
+.button {
+    background-color: rgb(236, 193, 84);
+    margin: 20px;
+    border-radius: 2px;
+    padding: 5px;
+    height: 60px;
+    width: 15%;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+a.button {
+    color: rgb(250, 131, 230);
+}
+
+.button:hover {
+    background-color: rgb(221, 145, 170);
+}
+
+ .navbar { 
+    background-color:rgb(187, 186, 186);
+    height: 5em;
+    border: 2px dotted rgb(236, 179, 72);
+    width: 100%;
+ }
