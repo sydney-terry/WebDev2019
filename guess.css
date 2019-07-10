@@ -49,3 +49,9 @@ a.button {
     border: 2px dotted rgb(236, 179, 72);
     width: 100%;
  }
+
+ .photo {
+     height: 15em;
+     width: 20em;
+     margin: 10px;
+ }

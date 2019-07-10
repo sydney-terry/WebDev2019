@@ -16,9 +16,10 @@ if (guessNum > 100) {
     msg = "Invalid";
 } else if (guessNum==ranNum) {
     msg = "You got it! Tries: " + count;
-   let myImg = document.createElement('image');
-    myImg.src = "/thumbsup.jpeg";
-   let photo = document.querySelector('br');
+    let myImg = document.createElement('img');
+    myImg.src = '/thumbsup.jpeg';
+    myImg.class = "photo";
+    let photo = document.querySelector('#photo');
     photo.appendChild(myImg);
     //var src = document.getElementsByTagName("main");
     //var myImg = document.createElement("img");
