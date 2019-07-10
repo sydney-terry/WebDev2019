@@ -21,10 +21,6 @@ if (guessNum > 100) {
     myImg.class = "photo";
     let photo = document.querySelector('#photo');
     photo.appendChild(myImg);
-    //var src = document.getElementsByTagName("main");
-    //var myImg = document.createElement("img");
-   // myImg.src = "/thumbsup.jpeg";
-    //src.appendChild(myImg);
 } else {
     msg = "wrong, try again";
 }
