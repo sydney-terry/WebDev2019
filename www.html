@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Weather Widget</title>
+        <meta charset="UTF-8"> 
         <link href="www.css" type="text/css" rel="stylesheet" >
         <script src="www.js"></script>
     </head>
@@ -15,13 +16,28 @@
                     <button class="button"><a href="/guess.html">Game</a></button>
                     <button class="button"><a href="/www.html">Weather</a></button>
                 </div>
-            </header>
-        <div id="content">
-            <div id="place"></div>
-            <div id="day"></div>
-            <div id="conditions"></div>
-            <div id="conditionsDesc"></div>
-            <div id="currentTemp"></div>
-        </div>
+        </header>
+        <main id="main">
+            <div id="content">
+
+                <div class="city-date">
+                    <div id="place"></div>
+                    <div id="day"></div>
+                </div>
+
+                <div class="tempurature">
+                    <div class="temp-icon">
+                        <img id="icon" src="">
+                    </div>
+                    <div id="currentTemp"></div>
+                </div>
+
+                <div class="condition">
+                    <div id="conditions"></div>
+                    <div id="conditionsDesc"></div>
+                </div>
+                
+            </div>
+        </main>
     </body>
 </html>

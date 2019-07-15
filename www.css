@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(148, 173, 218);
+}
+
+/* .button {
+    background-color: rgb(236, 193, 84);
+    margin: 20px;
+    border-radius: 2px;
+    padding: 5px;
+    height: 60px;
+    width: 15%;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+a.button {
+    color: rgb(250, 131, 230);
+}
+
+.button:hover {
+    background-color: rgb(221, 145, 170);
+}
+
+ .navbar { 
+    background-color:rgb(187, 186, 186);
+    height: 5em;
+    border: 2px dotted rgb(236, 179, 72);
+    width: 100%;
+ }*/
+
+ #main {
+     width: 1500px;
+     height: 1200px;
+     margin-left: 550px;
+     margin-right: 550px;
+
+ }
+
+ .city-date{
+     height: 30%;
+     background-color: rgb(255, 205, 111);
+     border-top-left-radius: 25px;
+     border-top-right-radius: 25px;
+     text-align: center;
+     position: relative;
+ }
+
+ .tempurature {
+    background-color: rgb(255, 143, 161);
+    left: 50%;
+    height: 45%;
+ }
+
+ img {
+    height: 40px;
+ }

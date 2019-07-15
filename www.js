@@ -6,7 +6,7 @@ loadData();
 
 function loadData() {
     
-    request.open('GET', 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Salt+Lake+City,us&units=imperial&cnt=5&appid=a23d5fb1cf08e5768b8553d9f194ec3e');
+    request.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?q=provo,US&mode=JSON&appid=a23d5fb1cf08e5768b8553d9f194ec3e');
     request.onload = loadComplete;
     request.send();
 }
@@ -20,3 +20,4 @@ function loadComplete(evt) {
     document.getElementById("conditions").innerHTML = weatherData.list[0].weather[0].main;
     document.getElementById("conditionsDesc").innerHTML = weatherData.list[0].weather[0].description;  
 }
+
