@@ -2,7 +2,7 @@ body {
     background-color: rgb(148, 173, 218);
 }
 
-/* .button {
+.button {
     background-color: rgb(236, 193, 84);
     margin: 20px;
     border-radius: 2px;
@@ -28,13 +28,14 @@ a.button {
     height: 5em;
     border: 2px dotted rgb(236, 179, 72);
     width: 100%;
- }*/
+ }
 
  #main {
      width: 1500px;
      height: 1200px;
      margin-left: 550px;
      margin-right: 550px;
+     margin-top: 40px;
 
  }
 
@@ -50,40 +51,34 @@ a.button {
      font-weight: bold;
  }
 
- #weather-btn {
-     font-size: .5em;
-     background-color: black;
-     color: white;
-     border: none;
-     padding: 20px 15px;
- }
 
- #weather-btn:hover {
-     background-color: gray;
-     color: white;
-     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
- }
-
-
- .tempurature {
+ .tempurature-condition {
     background-color: rgb(255, 143, 161);
     left: 50%;
-    height: 20em;
+    height: 10em;
     font-family: "martel", "serif";
-    font-size: 1em;
+    font-size: 3em;
+    text-align: center;
  }
 
  img {
-    height: 40px;
+    height: 8em;
+    margin: auto 0;
+    width: 25%;
  }
 
- .condition {
+ .forecast {
      height: 20em;
      background-color: rgb(131, 182, 131);
+     padding-top: 30px;
      border-bottom-left-radius: 25px;
      border-bottom-right-radius: 25px;
+     column-count: 5;
+     font-family: "martel", "serif";
+     font-size: 30px;
  }
 
- .condition {
+ #condition {
      font-style: italic;
  }
+
