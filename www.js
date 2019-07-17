@@ -5,7 +5,6 @@ function updateDailyWeather() {
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             
-            //---------------------
             console.log("Successful...");
             let todaysDate = new Date();
             let today = document.getElementById("day");
@@ -16,15 +15,14 @@ function updateDailyWeather() {
             currentTemp.innerText = weatherDataDays.main.temp;
 
             let weatherCondition = JSON.parse(this.reponse);
-            let weatherIcon = document.getElementById('conditionsDesc-icon');
-                if (weatherCondition[weather].main === 'clouds') {
+            let weatherIcon = document.getElementById("icon");
+                if (weatherCondition['weather'].main === 'clouds') {
                     weatherIcon.src = "/cloud.gif";
                 }
                 if (weatherCondition[weather].main === 'clear') {
                     weatherIcon.src = "/sunny.gif";
                 }
         } else {
-            
             
             console.log("failure...")
             
@@ -57,11 +55,20 @@ function updateForecast() {
                 
                 let currentDay = weatherDataDays.list[counter];
                 console.log(currentDay);
+
+                // Pulling out the dt_text value (date/time) 
+                // and parsing it to a JavaScript date
+    let weatherDate = new Date(currentDay.dt_txt + ' UTC');
+    console.log(weatherDate);
+                // Pulling the month from the data for comparison
+                // Remember, JavaScript months are zero indexed
+                // to get the right moneth for comparison, you
+                // will need to add 1 to it
+                console.log(weatherDate.getMonth() + 1);
+                // Pulling the day of the month from the date object
+                console.log(weatherDate.getDate());
             }
 
-            let day1Data = JSON.parse(this.response);
-            let day1Date = document.getElementById("day1Date")
-            for(let counter )
 
         } else {
             
